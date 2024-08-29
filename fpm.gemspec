@@ -45,7 +45,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency("childprocess") # license: ???
 
   # For calling functions in dynamic libraries
-  spec.add_dependency("ffi") # license: GPL3/LGPL3
+  # spec.add_dependency("ffi") # license: GPL3/LGPL3
+  spec.add_dependency("ffi", "~> 1.9.0") # license: GPL3/LGPL3
+
 
   spec.add_development_dependency("rake", "~> 10") # license: MIT
 
